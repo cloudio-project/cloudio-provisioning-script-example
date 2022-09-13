@@ -1,0 +1,21 @@
+---
+host: "http://example.com:8080"
+username: "admin"
+password: "password"
+endpointGroups: # [] if empty
+  - "group_a"
+metadata: # {} if empty
+  location: "Sion"
+banned: false
+customProperties: # {} if empty
+  "ch.hevs.cloudio.endpoint.hostUri": "ssl://example.com"
+  "ch.hevs.cloudio.endpoint.ssl.authorityCert": "file:/C:/Users/.../Documents/demoEndpoint/src/main/resources/cloud.io/authority.jks"
+  "ch.hevs.cloudio.endpoint.ssl.clientCert": "file:/C:/Users/.../Documents/demoEndpoint/src/main/resources/cloud.io/"
+  "ch.hevs.cloudio.endpoint.ssl.verifyHostname": "false"
+
+# other options ideas:
+######################
+# loglevel
+# grantToUsers
+# grantToUserGroups
+# other project-specific tasks
